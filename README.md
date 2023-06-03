@@ -1,2 +1,5 @@
-# TCRNN
-Thermodynamically Consistent Machine-Learned Internal State Variable Approach for Data-Driven Modeling of Path-Dependent Materials
+## Thermodynamically Consistent Recurrent Neural Networks (TCRNN)
+This repository provides the TCRNN model presented in the paper *Thermodynamically Consistent Machine-Learned Internal State Variable Approach for Data-Driven Modeling of Path-Dependent Materials*, which proposes a machine-learned physics-informed data-driven constitutive modeling approach for path-dependent materials based on the measurable material states. The proposed data-driven constitutive model is designed with the consideration of universal thermodynamics principles, where the internal state variables (ISVs) essential to the material path-dependency are inferred automatically from the hidden state of RNNs. The RNN describing the evolution of the data-driven machine-learned ISVs follows the thermodynamics second law. To enhance the robustness and accuracy of RNN models, stochasticity is introduced to model training. 
+
+## Citation
+He, X., & Chen, J. S. (2022). Thermodynamically consistent machine-learned internal state variable approach for data-driven modeling of path-dependent materials. Computer Methods in Applied Mechanics and Engineering, 402, 115348.
